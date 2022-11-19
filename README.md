@@ -1,9 +1,11 @@
-# Artificial Intelligence-based diagnosis of asbestosis: analysis of a database with applicants for asbestosis state-aid (European Radiology) :computer: :mag_right: 
+# Artificial Intelligence-based diagnosis of asbestosis: analysis of a database with applicants for asbestosis state-aid :computer: :mag_right: 
 
 
 Managed by Kevin Groot Lipman (k.groot.lipman@nki.nl, k.b.w.grootlipman@gmail.com)
 
 Noninvasive diagnosis of asbestosis for financial compensation suffers from interobserver variability. We developed/integrated an AI-system of multiple components (lung segmentation, anomaly heatmap, classifier) to reproduce the verdict of a panel of medical experts. 
+
+Our paper is accepted at European Radiology, link will follow.
 
 ## 1. Setting up the environment :deciduous_tree:
 Create and activate a conda environment with Python
