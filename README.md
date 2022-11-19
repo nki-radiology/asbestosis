@@ -15,6 +15,7 @@ Install the requirements (includes R)
  ```
 conda install tensorflow-gpu==1.15
 conda install keras==2.3.1
+conda install pandas
 conda install matplotlib==3.2.2
 conda install scikit-learn=0.24.1
 conda install scipy
