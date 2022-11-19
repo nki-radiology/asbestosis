@@ -21,9 +21,13 @@ conda install scikit-learn=0.24.1
 conda install scipy
 pip install pynrrd
  ```
+Follow instructions at [link](https://github.com/keras-team/keras-contrib) to install keras_contrib
 
 ## 2. How to run the code 🚀 
-Adjust the folders to your own paths in ``data_generator.py`` and ``train.py``. You dont need anomaly heatmaps or lung segmentations to run it. Just set 'n_channels' to 1 and load from your orginal CT folder.
+Download the LIDC-IDRI dataset
+Adjust the folders to your own paths in ``data_generator.py`` and ``train.py``. 
+
+You dont need to have anomaly heatmaps or lung segmentations to run it. Just set 'n_channels' in ``train.py`` to 1 and load from your orginal CT folder.
 
 ``python train.py``
 
