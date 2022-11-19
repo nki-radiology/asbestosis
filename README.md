@@ -26,8 +26,13 @@ pip install pynrrd
 Follow instructions at https://github.com/keras-team/keras-contrib to install keras_contrib
 
 ## 2. How to run the code 🚀 
-Download the LIDC-IDRI dataset
-Adjust the folders to your own paths in ``data_generator.py`` and ``train.py``. 
+
+### 2.1 VAE training.
+- Collect a healthy (CT) dataset.
+- Adjust the folders to your own paths for this dataset in ``data_generator_vae.py`` and ``train_vae.py``. 
+
+We adopted the model of Rodney et al. -> https://github.com/lalonderodney/SegCaps
+
 
 You dont need to have anomaly heatmaps or lung segmentations to run it. Just set 'n_channels' in ``train.py`` to 1 and load from your orginal CT folder.
 
