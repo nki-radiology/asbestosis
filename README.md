@@ -1,5 +1,5 @@
 # Artificial Intelligence-based diagnosis of asbestosis: analysis of a database with applicants for asbestosis state-aid (European Radiology) :computer: 
-:microscope:
+:mag_right: 
 
 Managed by Kevin Groot Lipman (k.groot.lipman@nki.nl, k.b.w.grootlipman@gmail.com)
 
@@ -22,7 +22,7 @@ pip install pynrrd
  ```
 
 ## 2. How to run the code 🚀 
-Adjust the folders to your own paths in ``data_generator.py`` and ``train.py``. Moreover, you dont need anomaly heatmap or lung segmentations to run it. Just set 'n_channels' to 1 and load from your orginal CT folder.
+Adjust the folders to your own paths in ``data_generator.py`` and ``train.py``. You dont need anomaly heatmaps or lung segmentations to run it. Just set 'n_channels' to 1 and load from your orginal CT folder.
 
 ``python train.py``
 
@@ -30,6 +30,6 @@ Adjust the folders to your own paths in ``data_generator.py`` and ``train.py``. 
 If you encounter a h5py error:
 pip install 'h5py==2.10.0' --force-reinstall
 
-## 4. Contribution
+## 4. Contribution :muscle:
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. If you want to add your analysis, or have a suggestion that would make this better, please fork the repo.
