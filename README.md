@@ -27,16 +27,21 @@ Follow instructions at https://github.com/keras-team/keras-contrib to install ke
 
 ## 2. How to run the code 🚀 
 
-### 2.1 VAE training.
+### 2.1 VAE.
 - Collect a healthy (CT) dataset.
 - Adjust the folders to your own paths for this dataset in ``data_generator_vae.py`` and ``train_vae.py``. 
+- Run ``python train_vae.py``
+- After training, run ``python test_vae.py``
 
-We adopted the model of Rodney et al. -> https://github.com/lalonderodney/SegCaps
+### 2.2 Lung segmentation.
+- We adopted the model of Rodney et al. -> https://github.com/lalonderodney/SegCaps
 
+### 2.3 Resnet training.
+- Adjust the folders of your target (disease) dataset to your own paths in ``data_generator.py`` and ``train.py``. 
+- Run ``python train.py``
+- After training, run ``python test.py``
 
-You dont need to have anomaly heatmaps or lung segmentations to run it. Just set 'n_channels' in ``train.py`` to 1 and load from your orginal CT folder.
-
-``python train.py``
+:exclamation: You dont have to have anomaly heatmaps (VAE) or lung segmentations to run it. Just set 'n_channels' in ``train.py`` to 1 and load from your target dataset folder.
 
 ## 3. Troubleshooting 🔨 
 If you encounter a h5py error:
