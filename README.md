@@ -11,7 +11,7 @@ Create and activate a conda environment with Python
 conda create -n asbestosis python=3.7.9
 conda activate asbestosis
  ```
-Install the requirements (includes R)
+Install the requirements
  ```
 conda install tensorflow-gpu==1.15
 conda install keras==2.3.1
