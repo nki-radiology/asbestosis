@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Adapted from https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly
 """
@@ -22,7 +23,7 @@ class DataGenerator(keras.utils.Sequence):
         self.labels = labels
         self.list_IDs = list_IDs
         self.n_channels = n_channels
-        self.lft = lft  # lung function test if multiple inputs
+        self.lft = lft  # lung function test if needed as input
         self.n_classes = n_classes
         self.shuffle = shuffle
         self.augment = augment

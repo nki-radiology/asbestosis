@@ -4,7 +4,6 @@
 """
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 os.environ["TF_ENABLE_AUTO_MIXED_PRECISION"] = "1"
 import tensorflow as tf
 from keras.models import Model
