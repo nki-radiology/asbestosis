@@ -8,7 +8,7 @@ Noninvasive diagnosis of asbestosis for financial compensation suffers from inte
 ## 1. Setting up the environment :deciduous_tree:
 Create and activate a conda environment with Python
  ```
-conda create -n asbestosis python
+conda create -n asbestosis python=3.7.9
 conda activate asbestosis
  ```
 Install the requirements (includes R)
