@@ -1,5 +1,5 @@
-# Artificial Intelligence-based diagnosis of asbestosis: analysis of a database with applicants for asbestosis state-aid (European Radiology) :computer: 
-:mag_right: 
+# Artificial Intelligence-based diagnosis of asbestosis: analysis of a database with applicants for asbestosis state-aid (European Radiology) :computer: :mag_right: 
+
 
 Managed by Kevin Groot Lipman (k.groot.lipman@nki.nl, k.b.w.grootlipman@gmail.com)
 
