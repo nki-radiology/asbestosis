@@ -21,7 +21,7 @@ conda install scikit-learn=0.24.1
 conda install scipy
 pip install pynrrd
  ```
-Follow instructions at [link](https://github.com/keras-team/keras-contrib) to install keras_contrib
+Follow instructions at https://github.com/keras-team/keras-contrib to install keras_contrib
 
 ## 2. How to run the code 🚀 
 Download the LIDC-IDRI dataset
