@@ -5,7 +5,7 @@ Managed by Kevin Groot Lipman (k.groot.lipman@nki.nl, k.b.w.grootlipman@gmail.co
 
 Noninvasive diagnosis of asbestosis for financial compensation suffers from interobserver variability. We developed/integrated an AI-system of multiple components (lung segmentation, anomaly heatmap, classifier) to reproduce the verdict of a panel of medical experts. 
 
-Our paper is accepted at European Radiology, link will follow.
+Our paper is accepted at European Radiology at https://link.springer.com/article/10.1007/s00330-022-09304-2
 
 ## 1. Setting up the environment :deciduous_tree:
 Create and activate a conda environment with Python
